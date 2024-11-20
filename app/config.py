@@ -21,7 +21,7 @@ BACK_COLOR = os.getenv('BACK_COLOR', 'white')
 
 # SERVER_BASE_URL is the base URL for the server. This might be used for constructing
 # URLs in responses. Defaults to 'http://localhost:8000'.
-SERVER_BASE_URL = os.getenv('SERVER_BASE_URL', 'http://localhost:8000')
+SERVER_BASE_URL = os.getenv('SERVER_BASE_URL', 'http://localhost:80')
 
 # SERVER_DOWNLOAD_FOLDER specifies the directory exposed by the server for downloads,
 # such as QR codes. This could be a path routed by your server for static files.
